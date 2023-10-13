@@ -23,7 +23,7 @@ The day of the week is displayed at the top of the screen.
 Clone this repository:
 
 
-git clone https://github.com/Abdulke96/riverpod_examples.git
+git clone https://github.com/Abdulke96/Flutter.git
 Navigate to the project directory:
 
 
