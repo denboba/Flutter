@@ -21,7 +21,7 @@ The app displays the counter value and provides buttons to increment, decrement,
 Clone this repository:
 
 
-git clone https://github.com/Abdulke96/riverpod_examples.git
+git clone https://github.com/Abdulke96/Flutter.git
 Navigate to the project directory:
 
 
