@@ -25,7 +25,7 @@ The app displays the title at the top, a message, and the current date below the
 # Getting Started
 Clone this repository:
 
-git clone https://github.com/Abdulke96/riverpod_examples.git
+git clone https://github.com/Abdulke96/Flutter.git
 Navigate to the project directory:
 
 cd riverpod_examples
