@@ -1,11 +1,13 @@
-Flutter Provider Example
+# Flutter Provider Example
+
 A simple Flutter application that showcases the usage of providers for state management in Flutter using Riverpod.
 
-Overview
+# Overview
 This Flutter application demonstrates the use of Riverpod's Provider for immutable state . It displays a message and the current date on the screen.
 
-Providers
+# Providers
 titleProvider (Immutable State)
+
 Description: A provider for the title of the app.
 Type: Provider<String>
 Initial Value: "Provider App"
@@ -17,13 +19,13 @@ dateProvider (Immutable State)
 Description: A provider for the current date.
 Type: Provider<DateTime>
 Initial Value: Current date and time
-How It Works
+ # How It Works
 The app displays the title at the top, a message, and the current date below the title. The date is updated automatically to show the current date and time.
 
-Getting Started
+# Getting Started
 Clone this repository:
 
-git clone https://github.com/Abdulke96/riverpod_examples.git
+git clone https://github.com/Abdulke96/Flutter.git
 Navigate to the project directory:
 
 cd riverpod_examples
@@ -35,11 +37,11 @@ Run the app:
 
 flutter run
 
-Features
+# Features
 Demonstrates the usage of Riverpod's Provider for state management.
 Shows the current date and a predefined message.
 Auto-updates the date in real-time.
-Dependencies
+# Dependencies
 Flutter: https://flutter.dev/
 Riverpod: https://pub.dev/packages/flutter_riverpod
 License

@@ -8,10 +8,10 @@ This repository contains various examples of Flutter apps utilizing Riverpod for
    - [Provider Example README](lib/1Provider/README.md)
 
 2. <span style="color:blue;">**StateProvider Example**</span> - Illustrates stateful and mutable state management using `StateProvider`.
-   - [StateProvider Example README](lib/StateProvider/README.md)
+   - [StateProvider Example README](lib/2StateProvider/README.md)
 
 3. <span style="color:blue;">**StateNotifier Example**</span> - Shows how to use `StateNotifier` for managing state.
-   - [StateNotifier Example README](lib/StateNotifierProvider/README.md)
+   - [StateNotifier Example README](lib/3StateNotifierProvider/README.md)
 
 4. <span style="color:blue;">**FutureProvider Example**</span> - Highlights the use of `FutureProvider` for asynchronous operations.
    - [FutureProvider Example README](lib/future_provider_example/README.md)
