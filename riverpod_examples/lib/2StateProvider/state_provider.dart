@@ -12,13 +12,13 @@ final countProvider = StateProvider<int>((ref) {
 void main() {
   runApp(
     const ProviderScope(
-      child: MyApp(),
+      child: StateProviderApp(),
     ),
   );
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class StateProviderApp extends StatelessWidget {
+  const StateProviderApp({super.key});
 
   @override
   Widget build(BuildContext context) {

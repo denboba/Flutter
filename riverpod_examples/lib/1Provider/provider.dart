@@ -16,13 +16,13 @@ final dateProvider = Provider<DateTime>((ref) {
 void main() {
   runApp(
     const ProviderScope(
-      child: MyApp(),
+      child: ProviderApp(),
     ),
   );
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class ProviderApp extends StatelessWidget {
+  const ProviderApp({super.key});
 
   @override
   Widget build(BuildContext context) {

@@ -21,11 +21,22 @@ final appNameProvider = Provider<String>((ref) {
 void main() {
   runApp(
     const ProviderScope(
-      child: MaterialApp(
-        home: StateNotifierProviderExample(),
-      ),
+      child: StateNotifierProviderApp(),
     ),
   );
+}
+
+class StateNotifierProviderApp extends StatelessWidget {
+  const StateNotifierProviderApp({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return const MaterialApp(
+      home: StateNotifierProviderExample(),
+    );
+  }
 }
 
 class StateNotifierProviderExample extends ConsumerWidget {
